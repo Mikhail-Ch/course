@@ -1,5 +1,5 @@
 <%
-	const cfg = { ...require("./data.json"), ...arguments?.[0] }
+	const cfg = App.GetConfig( "./data.json" );
 	const {
     extraClasses,
 		extraAttrs,

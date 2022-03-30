@@ -21,6 +21,8 @@ const ejsFiles = [
 
 
 module.exports = (env, {mode}) => {
+  // Powered by Lestrigon17
+  require("./webpack.utils");
 
   const isDev = mode === 'development'
 
