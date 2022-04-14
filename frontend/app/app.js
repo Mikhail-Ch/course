@@ -10,11 +10,12 @@ import "./styles"
 // Load components
 import "./components/button"
 
+//Load modules
 import Modals from '../app/js/modals'
 import SlidersCollection from "./js/sliders";
 import Forms from "./js/forms"
+import MapsCollection from "./components/map";
 
-//Load modules
 
 
 window.App = {
@@ -29,4 +30,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   App.Modals = new Modals()
   App.Sliders = new SlidersCollection()
+  App.MapsCollection = new MapsCollection()
 })
